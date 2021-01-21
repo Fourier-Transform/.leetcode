@@ -1,4 +1,4 @@
-class Solution {
+class Solution003 {
     public int lengthOfLongestSubstring(String s) {
         if(s == null){
             return 0;

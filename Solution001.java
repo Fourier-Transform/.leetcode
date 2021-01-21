@@ -1,5 +1,3 @@
-import java.util.HashMap;
-
 /*
  * @lc app=leetcode.cn id=1 lang=java
  *
@@ -7,7 +5,7 @@ import java.util.HashMap;
  */
 
 // @lc code=start
-class Solution {
+class Solution001 {
     public int[] twoSum(int[] nums, int target) {
         HashMap<Integer,Integer> hashmap = new HashMap<>();
         int[] ret = new int[2];
